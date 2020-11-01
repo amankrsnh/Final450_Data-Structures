@@ -1,0 +1,23 @@
+#include <iostream>
+#include<climits>   //for INT_MIN & INT_MAX
+using namespace std;
+
+int main()
+{
+    // Declaring Array
+    int arr[]={10,20,50,60,40,80,90,50,60,40,76};
+    int max=INT_MIN;      //initialising max variable with the most minimum number
+    int min=INT_MAX;      //initialising min variable with the most maximum number
+    for(int i=0;i<11;++i)
+    {
+        if(arr[i]>max)      //checking if array element is greater than max 
+            max=arr[i];
+        if(arr[i]<min)      //checking if array element is lesser than min
+            min=arr[i];
+    }
+    
+    //    printing the max and min
+    
+    cout<<max<<" "<<min;
+    return 0;
+}
