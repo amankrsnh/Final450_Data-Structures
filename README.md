@@ -3,7 +3,7 @@
 Actualy this repository contains the most important data structures and Algorithm for being a good Competetive programmer.
   Their Name are :
   
-  
+ ``` 
                               Questions
                              -----------
                               
@@ -445,3 +445,4 @@ Copy set bits in a range
 Divide two integers without using multiplication, division and mod o
 Calculate square of a number without using *, / and pow()
 Power Set
+```
